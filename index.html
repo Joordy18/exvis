@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visionneuse d'images interactive</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="viewer">
+    <div class="main-image">
+        <img id="current-image" src="image1.jpg" alt="Image principale">
+    </div>
+    <div class="thumbnails">
+        <img class="thumbnail" src="image1.jpg" alt="Miniature 1">
+        <img class="thumbnail" src="image2.jpg" alt="Miniature 2">
+        <img class="thumbnail" src="image3.jpg" alt="Miniature 3">
+        <img class="thumbnail" src="image4.jpg" alt="Miniature 4">
+    </div>
+    <div class="controls">
+        <button id="prev">Précédent</button>
+        <button id="next">Suivant</button>
+        <button id="stop">Arrêter le diaporama</button>
+        <button id="start">Démarrer le diaporama</button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

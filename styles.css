@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.viewer {
+    text-align: center;
+}
+
+.main-image img {
+    width: 500px;
+    height: auto;
+    transition: transform 0.2s;
+}
+
+.thumbnails {
+    margin-top: 10px;
+}
+
+.thumbnail {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.controls {
+    margin-top: 10px;
+}
